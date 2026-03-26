@@ -1,0 +1,19 @@
+{
+  "name": "momentum",
+  "version": "0.1.0",
+  "description": "A personal thinking partner for people with dyslexia. Helps with brain dumps, daily briefings, coaching through blocks, and tracking progress over time.",
+  "author": {
+    "name": "Dom Povey"
+  },
+  "keywords": [
+    "dyslexia",
+    "neurodivergent",
+    "productivity",
+    "thinking-partner",
+    "journal",
+    "briefing",
+    "coaching"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/dompovey/momentum"
+}

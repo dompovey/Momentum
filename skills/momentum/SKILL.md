@@ -30,13 +30,22 @@ detection, and all core protocols. Load it at the start of every session.
 
 ## Session Start
 
-Run these checks in order every time:
+Run Step 1 first, every time, before doing anything else. No exceptions.
 
-**Step 1 — Check setup**
+**Step 1 — ONBOARDING CHECK (runs before responding to any user message)**
+
 Look for `momentum/momentum-user-profile.md` in the user's workspace folder.
-- If it does not exist: read `references/onboarding.md` and run the onboarding flow.
-  Do not proceed to normal operation until onboarding is complete.
-- If it exists: read it now. This is your profile for the session.
+
+If it does not exist:
+- Stop. Do not run a briefing. Do not process a brain dump. Do not answer any other
+  question. The user's request must wait.
+- Read `references/onboarding.md` immediately and run the full onboarding flow.
+- Only return to normal operation after the profile file has been created and confirmed.
+
+This is a hard gate. A first-time user asking for a briefing should get onboarding,
+not a briefing. The profile file is the signal that setup is complete.
+
+If it exists: read it now. This is your profile for the session. Proceed to Step 2.
 
 **Step 2 — Load vision**
 Look for `momentum/momentum-vision.md` in the user's workspace folder.
